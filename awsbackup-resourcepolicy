@@ -1,0 +1,9 @@
+arn:aws:iam::513207552471:role/bckp-DefaultBackupRole
+Assign by ARN prefix
+arn:aws:ec2:*:*:instance/*
+arn:aws:ec2:*:*:volume/*
+arn:*:fsx:*
+arn:aws:rds:*:*:db:*
+arn:aws:s3:::*
+
+ec2-ebs-fsx-s3-rds
